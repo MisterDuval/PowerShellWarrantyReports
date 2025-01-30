@@ -6,7 +6,7 @@ function Set-WarrantyAPIKeys {
         [Parameter(ParameterSetName = 'Dell', Mandatory = $false)]
         [String]$DellClientSecret
     )
-    write-host "Setting Dell Warranty API Keys" -ForegroundColor Green
+    #write-host "Setting Dell Warranty API Keys" -ForegroundColor Green
     $script:DellClientID = $DellClientID
     $script:DellClientSecret = $DellClientSecret
 }
